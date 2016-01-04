@@ -200,3 +200,6 @@ let Checkstyle_Classpath = 'D:\Program Files\Java\checkstyle-5.3\checkstyle-5.3-
 
 set  go=m
 iab html <html></html>
+
+
+let g:vim_markdown_frontmatter=1
