@@ -13,6 +13,12 @@ Plugin 'spf13/vim-colors'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-scripts/Ferret'
+Plugin 'vim-scripts/vgdb'
+" scripts from http://vim-scripts.org/vim/scripts.html
+Plugin 'L9'
+Plugin 'FuzzyFinder'
+"Plugin 'file:///home/gmarik/path/to/plugin'
 call vundle#end()            " required
 
 filetype plugin indent on    " required

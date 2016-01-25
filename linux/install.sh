@@ -9,6 +9,11 @@ cd vim
 #git pull
 cd src
 make distclean
+./configure --with-features=huge --enable-multibyte  --enable-pythoninterp 
 make
 sudo make install
+
+
+vim --version
+#vim --version | grep python
 
