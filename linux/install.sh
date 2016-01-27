@@ -9,7 +9,7 @@ cd vim
 #git pull
 cd src
 make distclean
-./configure --with-features=huge --enable-multibyte  --enable-pythoninterp 
+./configure --with-features=huge --enable-multibyte  --enable-pythoninterp  --with-luajit --enable-luainterp=yes
 make
 sudo make install
 
