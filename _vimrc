@@ -2,31 +2,32 @@
 "language zh_CN.GB2312
 set encoding=utf-8
 " 设置文件编码检测类型及支持格式
-set fencs=utf-8,gbk,ucs-bom,gb18030,gb2312,cp936,big5,latin-1
+"set fencs=utf-8,gbk,ucs-bom,gb18030,gb2312,cp936,big5,latin-1
 " 指定菜单语言
-set langmenu=zh_CN.utf-8
-language messages zh_CN.utf-8
-let &termencoding = &encoding
+"set langmenu=zh_CN.utf-8
+"language messages zh_CN.utf-8
+"let &termencoding = &encoding
 
 set nocompatible  " Use Vim defaults (much better!)
-filetype off
+" filetype off
+filetype on
 "set rtp+=/usr/share/vim/vimfiles/bundle/Vundle.vim
 set rtp+=$VIM/vimfiles/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'joonty/vdebug'
+" Plugin 'joonty/vdebug'
 Plugin 'spf13/vim-colors'  
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-powerline'
 " Plugin 'Valloric/YouCompleteMe'
-Plugin 'vim-scripts/Ferret'
-Plugin 'vim-scripts/vgdb'
+" Plugin 'vim-scripts/Ferret'
+"Plugin 'vim-scripts/vgdb'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
+" Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-surround'
+" Plugin 'tpope/vim-rails'
+" Plugin 'tpope/vim-surround'
 " scripts from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
 Plugin 'FuzzyFinder'
@@ -239,3 +240,7 @@ set nu
 map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
 map <F6> :make<CR><CR><CR> :copen<CR><CR>
+
+
+
+
